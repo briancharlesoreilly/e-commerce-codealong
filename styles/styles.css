@@ -733,19 +733,11 @@ footer .social a:hover, footer .social a:focus {
   footer .footerNav nav ul {
     width: auto;
   }
-  footer .mapFormContainer .map {
+
+  .mapForm .mapFormContainer .map {
     width: 45%;
   }
-  footer .contactForm {
-    width: calc(55% - 50px);
-    margin-left: 50px;
-  }
-
-  .mapFormContainer .map {
-    width: 45%;
-  }
-
-  .contactForm {
+  .mapForm .contactForm {
     width: calc(55% - 50px);
     margin-left: 50px;
   }
@@ -755,7 +747,7 @@ footer .social a:hover, footer .social a:focus {
     width: 70%;
   }
 
-  .mapFormContainer {
+  .mapForm .mapFormContainer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -764,12 +756,11 @@ footer .social a:hover, footer .social a:focus {
         -ms-flex-align: center;
             align-items: center;
   }
-  .mapFormContainer .map {
+  .mapForm .mapFormContainer .map {
     margin-bottom: 50px;
     width: 85%;
   }
-
-  .contactForm {
+  .mapForm .contactForm {
     width: 85%;
     margin-left: 0;
   }
@@ -817,7 +808,7 @@ footer .social a:hover, footer .social a:focus {
     margin-bottom: 30px;
   }
 
-  .mapFormContainer .map {
+  .mapForm .mapFormContainer .map {
     width: 100%;
   }
 }
