@@ -1,3 +1,8 @@
+
+// **********************
+// MEDIA QUERIE FOR 1000PX
+// **********************
+
 @media (max-width: 1000px) {
   footer {
     .footerFlexContainer {
@@ -20,6 +25,17 @@
         }
       }
     }
+
+    .mapFormContainer {
+      .map {
+        width: 45%;
+      }
+    }
+
+    .contactForm {
+      width: calc(55% - 50px);
+      margin-left: 50px;
+    }
   }
 
   .mapFormContainer {
@@ -32,25 +48,37 @@
     margin-left: 50px;
   }
 }
+
+// **********************
+// MEDIA QUERIE FOR 800PX
+// **********************
+
 @media (max-width: 800px) {
   footer {
     .newsletter {
       width: 70%;
     }
   }
-  .mapFormContainer{
+  
+  .mapFormContainer {
     flex-direction: column;
     align-items: center;
-    .map{
+    .map {
         margin-bottom: 50px;
         width: 85%;
     }
   }
-  .contactForm{
+
+  .contactForm {
     width: 85%;
     margin-left: 0;
   }
 }
+
+// **********************
+// MEDIA QUERIE FOR 500PX
+// **********************
+
 @media (max-width: 500px) {
   .announcements {
     display: none;
