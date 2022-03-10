@@ -517,6 +517,11 @@ button.menuIcon:focus {
   font-family: "Jakarta Sans";
   padding: 10px 0 10px 20px;
 }
+.navBar .slideOutNav button:active {
+  left: -506px;
+  -webkit-transition: 0.75s;
+  transition: 0.75s;
+}
 .navBar .slideOutNav hr {
   width: 24px;
   height: 2px;
