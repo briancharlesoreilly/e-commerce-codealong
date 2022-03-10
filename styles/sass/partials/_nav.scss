@@ -99,7 +99,7 @@
         font-size: 1.2rem;
         font-family: $bodyFont;
         padding: 10px 0 10px 20px;
-        &:active {
+        &:active .navBar .slideOutNav {
           left: -506px;
           transition: 0.75s;
         }
